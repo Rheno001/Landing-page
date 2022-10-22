@@ -4,10 +4,42 @@
     box-sizing: border-box;
     font-family: ;
 }
-.container{
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid{
     width: 980px;
     margin: 0 auto;
-    background: red;
+   
+}
+.main-text{
+    font-weight: 800;
+}
+.card{
+    background: hsl(240, 100%, 5%);
+}
+.card-body h6,p{
+    color: #fff;
+}
+.card-body h1{
+    color: hsl(35, 77%, 62%);
+}
+.one{
+    border-bottom: 1px solid hsl(36, 100%, 99%);
+}
+.btn{
+    background: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%) ;
+}
+.btn:hover{
+    background:  hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+}
+h5{
+    font-weight: 700;
+}
+.text p{
+    font-weight: 400;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
