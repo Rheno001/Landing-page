@@ -12,6 +12,13 @@ html{
     margin: 0 auto;
    
 }
+.nav-item a{
+    font-weight: 400;
+}
+.nav-item a:hover{
+    color: hsl(35, 77%, 62%) ;
+
+}
 .main-text{
     font-weight: 800;
 }
@@ -26,6 +33,12 @@ html{
 }
 .one{
     border-bottom: 1px solid hsl(36, 100%, 99%);
+}
+.one h6:hover{
+    color: hsl(35, 77%, 62%);
+}
+.one-last h6:hover{
+    color: hsl(35, 77%, 62%);
 }
 .btn{
     background: hsl(5, 85%, 63%);
