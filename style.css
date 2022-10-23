@@ -67,17 +67,35 @@ h5{
         display: flex;
         flex-direction: column;
     }
+    .writeup{
+        margin-left: 50px;
+    }
+    .main-p{
+        margin-right: 125px;
+    }
     .main-image img{
         width: 325px;
     }
     .writeup{
         text-align: center;
+        justify-content: center;
+    }
+    .btn{
+        margin-right: 120px;
     }
     .card{
         margin-top: 20px;
     }
+    .right-sec{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
     #footer{
         display: flex;
         flex-direction: column;
+    }
+    .items{
+        margin-top: 10px;
     }
 }
