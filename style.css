@@ -1,14 +1,15 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
 }
 html{
     scroll-behavior: smooth;
 }
 .container-fluid{
-    width: 980px;
+    width: 1300px;
     margin: 0 auto;
    
 }
@@ -56,3 +57,27 @@ h5{
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+/*Mobiles*/
+@media (max-width:400px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+    .writeup{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-image img{
+        width: 325px;
+    }
+    .writeup{
+        text-align: center;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
