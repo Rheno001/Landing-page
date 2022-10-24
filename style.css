@@ -62,40 +62,45 @@ h5{
     #main{
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
     }
-    .writeup{
+    .left-sec{
         display: flex;
         flex-direction: column;
     }
     .writeup{
-        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
-    .main-p{
-        margin-right: 125px;
-    }
-    .main-image img{
-        width: 325px;
-    }
-    .writeup{
-        text-align: center;
+    .main-image{
+        display: flex;
         justify-content: center;
     }
-    .btn{
-        margin-right: 120px;
-    }
-    .card{
-        margin-top: 20px;
-    }
-    .right-sec{
-        display: flex;
-        justify-items: center;
-        align-items: center;
-    }
-    #footer{
-        display: flex;
-        flex-direction: column;
-    }
-    .items{
-        margin-top: 10px;
-    }
+   .main-image img{
+        width: 300px;
+   }
+   .main-text{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding-left: 45px;
+    font-size: 35px;
+   }
+   .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50px;
+    margin-bottom: 20px;
+   }
+   .right-sec{
+    display: flex;
+    justify-content: center;
+   }
+   #footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   }
 }
