@@ -58,7 +58,7 @@ h5{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 /*Mobiles*/
-@media (max-width:400px) {
+@media (max-width:500px) {
     #main{
         display: flex;
         flex-direction: column;
@@ -78,7 +78,7 @@ h5{
         justify-content: center;
     }
    .main-image img{
-        width: 300px;
+        min-width: 350px;
    }
    .main-text{
     display: flex;
@@ -103,4 +103,51 @@ h5{
     flex-direction: column;
     justify-content: flex-start;
    }
+}
+@mediaminmax(501px, 1000px){
+    #main{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .left-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .writeup{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .main-image{
+        display: flex;
+        justify-content: center;
+    }
+   .main-image img{
+        min-width: 400px;
+   }
+   .main-text{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding-left: 45px;
+    font-size: 35px;
+   }
+   .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 50px;
+    margin-bottom: 20px;
+   }
+   .right-sec{
+    display: flex;
+    justify-content: center;
+   }
+   #footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   }
+
 }
